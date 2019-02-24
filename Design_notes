@@ -1,3 +1,10 @@
 A sample web site for password generator 
  -> https://passwordsgenerator.net/
  -> https://www.random.org/passwords/
+ 
+ Technology can use:
+ -> Progressive Web App
+  -> Features:
+   -> App can work even in low network
+   -> Service worker ( Cliend side proxy for response - request)
+   -> Cliend side cache
