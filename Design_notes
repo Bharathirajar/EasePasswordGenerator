@@ -9,6 +9,7 @@ A sample web site for password generator
    -> Service worker ( Cliend side proxy for response - request)
    -> Cliend side cache
    -> Lighthouse framework for automation (Testing, quality ensure, continous intergration)
+   -> Hosting technology (Docker image)
    
 Key techology should use,
  -> Front end (Progressive web app)
@@ -16,3 +17,4 @@ Key techology should use,
  -> DB (Mongo DB)
  -> Python 
  -> CI/CD
+ -> Docker Image
