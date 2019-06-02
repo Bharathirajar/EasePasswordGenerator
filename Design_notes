@@ -13,6 +13,7 @@ A sample web site for password generator
    
 Key techology should use,
  -> Front end (Progressive web app)
+ -> Hybrid app (Iconic framework)
  -> Backend (Java 12)
  -> DB (Mongo DB)
  -> Python 
