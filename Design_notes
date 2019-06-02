@@ -18,3 +18,10 @@ Key techology should use,
  -> Python 
  -> CI/CD
  -> Docker Image
+
+Design:
+1. Quick password
+  1.1button -> action -> create three set of password which are plain alaphabet, alaphanumeric and with special character. Note that pwd contains common letter for easy to remember
+2. custom password
+  2.1 button -> action -> create user prefered password which are plain alaphabet, alaphanumeric and with special character.
+3. Storing / showing pwd -> Authonicate by user pin or securiy question 
