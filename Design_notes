@@ -26,3 +26,5 @@ Design:
 2. custom password
   2.1 button -> action -> create user prefered password which are plain alaphabet, alaphanumeric and with special character.
 3. Storing / showing pwd -> Authonicate by user pin or securiy question 
+4. Add character count option, the default character count is 8
+5. Show password in the popup screen and close button
