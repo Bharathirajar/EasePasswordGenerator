@@ -1,0 +1,13 @@
+<div class="charactercount">
+  <div>
+    <span>character count </span>
+    <span><input type="number" size="2" placeholder="8" [(ngModel)]="characterCount"></span>
+  </div>
+  <div>
+    <span>Specific text</span>
+    <span><input type="text" size="20" placeholder="Any words" [(ngModel)]="specificCharacters"></span>
+  </div>
+  <div>
+    <button (click)="save()">Save</button>
+  </div>
+</div>

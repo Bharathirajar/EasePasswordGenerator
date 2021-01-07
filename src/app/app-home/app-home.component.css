@@ -1,0 +1,147 @@
+.pos_rel{
+    position: relative;
+    margin: 0 auto;
+}
+.charactercount{
+    position: absolute;
+    margin: 30px;
+    font-size: 24px;
+    font-variant: all-small-caps;
+    float: left;
+}
+
+.charactercount input {
+    height: 24px;
+    size: 20px;
+}
+
+.passwordSampleOrComplexOption{
+    position: absolute;
+    float: left;
+}
+
+.button_center {
+    position: absolute;    
+}
+
+#home_list_1 {
+    position: absolute;
+    top:2%;
+    left:2%;
+    height: 40px;
+    width: 100%;
+}
+
+#home_list_2 {
+    position: absolute;
+    top:32%;
+    left:32%;
+    width: 100%;
+}
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .button_center {
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        padding-top:75px;
+    }
+    .charactercount{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        font-variant: all-small-caps;
+    }
+    .charactercount input{
+        width: 50px;
+    }
+    .button_style{
+        width:180px;
+        height:180px;
+        font-size: 18px;
+    }
+    #home_list_2 {
+        position: absolute;
+        top:250%;
+        left:23%;
+        width: 100%;
+    }
+}
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px){
+    /* styles */
+}
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px){
+    /* styles */
+}
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /* styles */
+}
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px){
+    .button_center {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        padding-top:100px;
+    }
+    .button_style{
+        width:280px;
+        height:280px;
+        font-size: 22px;
+    }
+}
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px){
+    .button_center {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        padding-top:100px;
+    }
+    #home_list_2 {
+        position: absolute;
+        top:32%;
+        left:40%;
+        width: 100%;
+    }
+    .button_style{
+        width:350px;
+        height:350px;
+        font-size: 24px;
+    }
+}
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px){
+    .button_center {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        padding-top:100px;
+    }
+    .button_style{
+        width:450px;
+        height:450px;
+        font-size: 28px;
+    }
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px){
+    
+    .button_center {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        padding-top:350px;
+    }
+    .button_style{
+        width:350px;
+        height:350px;
+        font-size: 28px;
+    }
+}
+
+
+

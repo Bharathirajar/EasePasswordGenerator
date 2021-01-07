@@ -1,0 +1,49 @@
+<div class="container">
+  <!--<div class="header">
+    <div class="header_color">
+      <span class="title">
+        Ease Password Generator
+      </span>
+      <span class="side_menu">
+      </span>
+    </div>
+  </div> -->
+
+  
+
+<!--  <button>
+    <mat-icon svgIcon="settings" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
+  </button>
+  <button>
+    <mat-icon svgIcon="thumbs-up" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
+  </button> -->
+  <span>
+    <img src="./assets/settings.png" width="45px" height="45px" (click)="openSettings()">
+  </span>
+  <span>
+    <button style="float: right;" mat-icon-button [matMenuTriggerFor]="appmenu" #appmenuTrigger="matMenuTrigger" aria-label="Example icon-button with a menu">
+      <mat-icon>more_vert</mat-icon>
+    </button> 
+    <mat-menu #appmenu="matMenu">
+      <button mat-menu-item>
+        <span>Redial</span>
+      </button>
+      <button mat-menu-item disabled>
+        <span>Check voice mail</span>
+      </button>
+      <button mat-menu-item>
+        <span>Disable alerts</span>
+      </button>
+    </mat-menu> 
+  </span>
+
+  <router-outlet></router-outlet>
+  
+  <div class="footer">
+    <div class="header_color">
+      <span class="title">
+        smile :)
+      </span>
+    </div>
+  </div>
+</div>
